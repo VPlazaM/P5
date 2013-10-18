@@ -3,9 +3,11 @@
 require "./gcd.rb"
 
 class Fraccion  
- 
+    
+    #Descomposición de los parámetros enviados a los métodos en las siguientes variables de instancia.
     attr_reader :num, :den
 
+    
     # Inicialización tanto del numerador como del denominador de una fracción, con un pequeño test para comprobar que son enteros.   
     def initialize(num,den)
       if num.is_a?Integer and den.is_a?Integer

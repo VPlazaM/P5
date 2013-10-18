@@ -19,3 +19,12 @@ En su lugar, la sentencia `v == 0` debería ser sustituida por `v != 0`.
 
 
 La solución fue cambiar la condición del while como expliqué anteriormente y realice una traza análoga a la anterior, pero esta vez con un resultado exitoso.
+
+
+###Comandos de ejecución:
+
+* Para la ejecución del programa:
+	$ ruby racional.rb
+
+* Para la ejecución de los test asociados:
+	$ ruby tc_racional.rb

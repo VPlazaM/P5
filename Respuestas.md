@@ -24,7 +24,9 @@ La solución fue cambiar la condición del while como expliqué anteriormente y 
 ###Comandos de ejecución:
 
 * Para la ejecución del programa:
+
 	$ ruby racional.rb
 
 * Para la ejecución de los test asociados:
+
 	$ ruby tc_racional.rb

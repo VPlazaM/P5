@@ -25,7 +25,6 @@ La solución fue cambiar la condición del while como expliqué anteriormente y 
 
 * Para la ejecución del programa:
 
-
 	$ ruby racional.rb
 
 o
@@ -36,8 +35,7 @@ o
 
 * Para la ejecución de los test asociados:
 
-
-	$ ruby tc_racional.rb
+	$ ruby tc_radional.rb
 
 o
 

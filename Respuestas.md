@@ -27,6 +27,16 @@ La solución fue cambiar la condición del while como expliqué anteriormente y 
 
 	$ ruby racional.rb
 
+o
+
+	$ rake
+
+*****
+
 * Para la ejecución de los test asociados:
 
 	$ ruby tc_racional.rb
+
+o
+
+	$ rake testing

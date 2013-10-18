@@ -61,8 +61,8 @@ class Fraccion
 end
 
 #Ejecución de algunas operaciones.
-a=Fraccion.new(13,4)
-b=Fraccion.new(7,5)
+a=Fraccion.new(13,21)
+b=Fraccion.new(8,7)
 
 puts "La fracción 'a' es:"
 a.to_s

@@ -13,44 +13,9 @@ En su lugar, la sentencia 'v == 0' debería ser sustituida por 'v != 0'.
 
 ### ¿Qué comandos del depurador utilizó para detectarlo? Describa la sesión de depuración.
 
+* Primeramente utilicé el comando 'display u' y 'display v' para realizar un seguimiento de las variables u y v en el proceso de depuración.
+* El segundo paso fue ejecutar 'next' para llamar al método.
+* Después fui ejecutando el código paso a paso a través del comando 'step'para poder realizar una traza completa y me percaté de que no entraba en el bucle while.
 
 
-
-
-
-
-
-
-
-
-
-:::ruby
-
- gcd.rb:1:def gcd(u, v)
-(rdb:1) display u
-1: u = 
-(rdb:1) display v
-2: v = 
-(rdb:1) next
-gcd.rb:9:puts gcd(6,3)
-1: u = 
-2: v = 
-(rdb:1) step
-gcd.rb:2:  u, v = u.abs, v.abs
-1: u = 6
-2: v = 3
-(rdb:1) step
-gcd.rb:3:  while v != 0
-1: u = 6
-2: v = 3
-(rdb:1) step
-gcd.rb:4:    u, v = v, u % v
-1: u = 6
-2: v = 3
-(rdb:1) step
-gcd.rb:6:  u
-1: u = 3
-2: v = 0
-(rdb:1) step
-3
-
+La solución fue cambiar la condición del while como expliqué anteriormente y realice una traza análoga a la anterior, pero esta vez con un resultado exitoso.
